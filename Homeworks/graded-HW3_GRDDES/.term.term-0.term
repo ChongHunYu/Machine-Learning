@@ -1,0 +1,8 @@
+]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;34m.ipynb_checkpoints[0m  .term.term-0.term  HW3.ipynb  housing.data  term.term
+]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ rm .ipynb_checkpoints/
+rm: cannot remove '.ipynb_checkpoints/': Is a directory
+]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ rm .ipynb_checkpoints/[C[C[C-.ipynb_checkpoints/r.ipynb_checkpoints/ .ipynb_checkpoints/
+]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ ls
+HW3.ipynb  housing.data  term.term
+]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ ]0;~/ML_Spr_20/Homeworks/HW3_GRDDES[01;34m~/ML_Spr_20/Homeworks/HW3_GRDDES[00m$ 

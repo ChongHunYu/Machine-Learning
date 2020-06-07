@@ -1,0 +1,18 @@
+]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ ls
+[0m[01;35mkernel.png[0m  [01;35mmd.png[0m  python.ipynb  [01;32mstandalone.py[0m  termy.term
+]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ ping google.com
+PING google.com (74.125.141.102) 56(84) bytes of data.
+64 bytes from vl-in-f102.1e100.net (74.125.141.102): icmp_seq=1 ttl=51 time=0.901 ms
+64 bytes from vl-in-f102.1e100.net (74.125.141.102): icmp_seq=2 ttl=51 time=0.589 ms
+64 bytes from vl-in-f102.1e100.net (74.125.141.102): icmp_seq=3 ttl=51 time=0.639 ms
+64 bytes from vl-in-f102.1e100.net (74.125.141.102): icmp_seq=4 ttl=51 time=0.765 ms
+^C
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3038ms
+rtt min/avg/max/mdev = 0.589/0.723/0.901/0.123 ms
+]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ clear
+[3J[H[2J]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ ls
+[0m[01;35mkernel.png[0m  [01;35mmd.png[0m  python.ipynb  [01;32mstandalone.py[0m  termy.term
+]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ ./standalone.py 
+Hello World!
+]0;~/380_ML/Intro2Python[01;34m~/380_ML/Intro2Python[00m$ 

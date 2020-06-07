@@ -1,0 +1,5 @@
+]0;~/380_ML/DecisionTrees[01;34m~/380_ML/DecisionTrees[00m$ dot
+
+
+]0;~/380_ML/DecisionTrees[01;34m~/380_ML/DecisionTrees[00m$ dot -Tpng iris_tree.dot -o iti[K[Kris_tree.png
+]0;~/380_ML/DecisionTrees[01;34m~/380_ML/DecisionTrees[00m$ 

@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="worst_concave_pts <= 884.55\ngini = 0.468\nsamples = 569\nvalue = [357, 212]\nclass = b", fillcolor="#f4ccaf"] ;
+1 [label="mean_fractal_dim <= 0.16\ngini = 0.173\nsamples = 386\nvalue = [349, 37]\nclass = b", fillcolor="#e88e4e"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="std_err_concave_pts <= 101.65\ngini = 0.089\nsamples = 364\nvalue = [347, 17]\nclass = b", fillcolor="#e68743"] ;
+1 -> 2 ;
+3 [label="std_err_fractal_dim <= 0.209\ngini = 0.025\nsamples = 310\nvalue = [306, 4]\nclass = b", fillcolor="#e5833c"] ;
+2 -> 3 ;
+4 [label="gini = 0.198\nsamples = 18\nvalue = [16, 2]\nclass = b", fillcolor="#e89152"] ;
+3 -> 4 ;
+5 [label="mean_concave_pts <= 33.35\ngini = 0.014\nsamples = 292\nvalue = [290, 2]\nclass = b", fillcolor="#e5823a"] ;
+3 -> 5 ;
+6 [label="gini = 0.0\nsamples = 273\nvalue = [273, 0]\nclass = b", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="gini = 0.188\nsamples = 19\nvalue = [17, 2]\nclass = b", fillcolor="#e89050"] ;
+5 -> 7 ;
+8 [label="mean_concave_pts <= 27.265\ngini = 0.366\nsamples = 54\nvalue = [41, 13]\nclass = b", fillcolor="#eda978"] ;
+2 -> 8 ;
+9 [label="mean_fractal_dim <= 0.116\ngini = 0.153\nsamples = 36\nvalue = [33, 3]\nclass = b", fillcolor="#e78c4b"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 18\nvalue = [18, 0]\nclass = b", fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label="gini = 0.278\nsamples = 18\nvalue = [15, 3]\nclass = b", fillcolor="#ea9a61"] ;
+9 -> 11 ;
+12 [label="gini = 0.494\nsamples = 18\nvalue = [8, 10]\nclass = m", fillcolor="#d7ebfa"] ;
+8 -> 12 ;
+13 [label="gini = 0.165\nsamples = 22\nvalue = [2, 20]\nclass = m", fillcolor="#4da7e8"] ;
+1 -> 13 ;
+14 [label="mean_perimeter <= 0.072\ngini = 0.084\nsamples = 183\nvalue = [8, 175]\nclass = m", fillcolor="#42a1e6"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+15 [label="gini = 0.488\nsamples = 19\nvalue = [8, 11]\nclass = m", fillcolor="#c9e4f8"] ;
+14 -> 15 ;
+16 [label="gini = 0.0\nsamples = 164\nvalue = [0, 164]\nclass = m", fillcolor="#399de5"] ;
+14 -> 16 ;
+}

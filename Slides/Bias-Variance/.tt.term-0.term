@@ -1,0 +1,16 @@
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ python3
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import py_compile
+>>> py_compile.compile("omystuff.py")
+'__pycache__/omystuff.cpython-36.pyc'
+>>> 
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ ls __pycache__/
+mystuff.cpython-37.pyc  omystuff.cpython-36.pyc
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ ls
+ BiasVarianceTradeoff.ipynb             [0m[01;34m__pycache__[0m         [01;35mbv.png[0m           mystuff.pyc   tt.term
+'Controlling Bias and Variance.ipynb'   [01;35mbiasvariance2.png[0m   [01;35mderivation.jpg[0m   omystuff.py
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ mv mystuff.pyc m[Ksafe_mystuff.pyc
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ mv __pycache__/omystuff.cpython-36.pyc mystuff.pyc
+]0;~/ML_Spr_20/Slides/Bias-Variance[01;34m~/ML_Spr_20/Slides/Bias-Variance[00m$ 

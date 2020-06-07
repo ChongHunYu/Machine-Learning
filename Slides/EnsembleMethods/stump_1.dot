@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="mean_fractal_dim <= -0.148\ngini = 0.457\nsamples = 75\nvalue = [0.354, 0.646]\nclass = m", fillcolor="#a6d3f3"] ;
+1 [label="gini = 0.0\nsamples = 43\nvalue = [0.299, 0.0]\nclass = b", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.146\nsamples = 32\nvalue = [0.056, 0.646]\nclass = m", fillcolor="#4aa5e7"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

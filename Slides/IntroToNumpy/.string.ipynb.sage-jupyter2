@@ -1,0 +1,6 @@
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":80183296},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.7.5"}},"type":"settings"}
+{"cell_type":"code","exec_count":1,"id":"ccb365","input":"import string","pos":0,"type":"cell"}
+{"cell_type":"code","exec_count":2,"id":"569553","input":"string.punctuation","output":{"0":{"data":{"text/plain":"'!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'"},"exec_count":2,"output_type":"execute_result"}},"pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":3,"id":"ffa0be","input":"string.whitespace","output":{"0":{"data":{"text/plain":"' \\t\\n\\r\\x0b\\x0c'"},"exec_count":3,"output_type":"execute_result"}},"pos":2,"type":"cell"}
+{"cell_type":"code","id":"b20a48","input":"","pos":3,"type":"cell"}
+{"last_load":1581011464132,"type":"file"}

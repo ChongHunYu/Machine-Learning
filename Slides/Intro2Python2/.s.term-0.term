@@ -1,0 +1,111 @@
+]0;~/380_ML/Intro2Python2[01;34m~/380_ML/Intro2Python2[00m$ man ascii
+[?1049h[22;0;0t[?1h=ASCII(7)                                   Linux Programmer's Manual                                   ASCII(7)[m
+[m
+[1;31mNAME[0m[m
+       ascii - ASCII character set encoded in octal, decimal, and hexadecimal[m
+[m
+[1;31mDESCRIPTION[0m[m
+       ASCII  is the American Standard Code for Information Interchange.  It is a 7-bit code.  Many 8-bit codes[m
+       (e.g., ISO 8859-1) contain ASCII as their lower half.  The international counterpart of ASCII  is  known[m
+       as ISO 646-IRV.[m
+[m
+       The following table contains the 128 ASCII characters.[m
+[m
+       C program '\X' escapes are noted.[m
+[m
+       Oct   Dec   Hex   Char                        Oct   Dec   Hex   Char[m
+       ────────────────────────────────────────────────────────────────────────[m
+       000   0     00    NUL '\0' (null character)   100   64    40    @[m
+       001   1     01    SOH (start of heading)      101   65    41    A[m
+       002   2     02    STX (start of text)         102   66    42    B[m
+       003   3     03    ETX (end of text)           103   67    43    C[m
+       004   4     04    EOT (end of transmission)   104   68    44    D[m
+       005   5     05    ENQ (enquiry)               105   69    45    E[m
+       006   6     06    ACK (acknowledge)           106   70    46    F[m
+       007   7     07    BEL '\a' (bell)             107   71    47    G[m
+       010   8     08    BS  '\b' (backspace)        110   72    48    H[m
+       011   9     09    HT  '\t' (horizontal tab)   111   73    49    I[m
+       012   10    0A    LF  '\n' (new line)         112   74    4A    J[m
+       013   11    0B    VT  '\v' (vertical tab)     113   75    4B    K[m
+       014   12    0C    FF  '\f' (form feed)        114   76    4C    L[m
+       015   13    0D    CR  '\r' (carriage ret)     115   77    4D    M[m
+       016   14    0E    SO  (shift out)             116   78    4E    N[m
+[1;44;33m Manual page ascii(7) line 1 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       017   15    0F    SI  (shift in)              117   79    4F    O[m
+[1;44;33m Manual page ascii(7) line 2 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       020   16    10    DLE (data link escape)      120   80    50    P[m
+[1;44;33m Manual page ascii(7) line 3 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       021   17    11    DC1 (device control 1)      121   81    51    Q[m
+[1;44;33m Manual page ascii(7) line 4 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       022   18    12    DC2 (device control 2)      122   82    52    R[m
+[1;44;33m Manual page ascii(7) line 5 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       023   19    13    DC3 (device control 3)      123   83    53    S[m
+[1;44;33m Manual page ascii(7) line 6 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       024   20    14    DC4 (device control 4)      124   84    54    T[m
+[1;44;33m Manual page ascii(7) line 7 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       025   21    15    NAK (negative ack.)         125   85    55    U[m
+[1;44;33m Manual page ascii(7) line 8 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       026   22    16    SYN (synchronous idle)      126   86    56    V[m
+[1;44;33m Manual page ascii(7) line 9 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       027   23    17    ETB (end of trans. blk)     127   87    57    W[m
+[1;44;33m Manual page ascii(7) line 10 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       030   24    18    CAN (cancel)                130   88    58    X[m
+[1;44;33m Manual page ascii(7) line 11 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       031   25    19    EM  (end of medium)         131   89    59    Y[m
+[1;44;33m Manual page ascii(7) line 12 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       032   26    1A    SUB (substitute)            132   90    5A    Z[m
+[1;44;33m Manual page ascii(7) line 13 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       033   27    1B    ESC (escape)                133   91    5B    [[m
+[1;44;33m Manual page ascii(7) line 14 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       034   28    1C    FS  (file separator)        134   92    5C    \  '\\'[m
+[1;44;33m Manual page ascii(7) line 15 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       035   29    1D    GS  (group separator)       135   93    5D    ][m
+[1;44;33m Manual page ascii(7) line 16 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       036   30    1E    RS  (record separator)      136   94    5E    ^[m
+[1;44;33m Manual page ascii(7) line 17 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       037   31    1F    US  (unit separator)        137   95    5F    _[m
+[1;44;33m Manual page ascii(7) line 18 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       040   32    20    SPACE                       140   96    60    `[m
+[1;44;33m Manual page ascii(7) line 19 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       001   1     01    SOH (start of heading)      101   65    41    A[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 18 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       000   0     00    NUL '\0' (null character)   100   64    40    @[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 17 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       ────────────────────────────────────────────────────────────────────────[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 16 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       Oct   Dec   Hex   Char                        Oct   Dec   Hex   Char[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 15 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 14 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       C program '\X' escapes are noted.[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 13 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 12 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       The following table contains the 128 ASCII characters.[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 11 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 10 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       as ISO 646-IRV.[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 9 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       (e.g., ISO 8859-1) contain ASCII as their lower half.  The international counterpart of ASCII  is  known[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 8 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       026   22    16    SYN (synchronous idle)      126   86    56    V[m
+[1;44;33m Manual page ascii(7) line 9 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       027   23    17    ETB (end of trans. blk)     127   87    57    W[m
+[1;44;33m Manual page ascii(7) line 10 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       030   24    18    CAN (cancel)                130   88    58    X[m
+[1;44;33m Manual page ascii(7) line 11 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       031   25    19    EM  (end of medium)         131   89    59    Y[m
+[1;44;33m Manual page ascii(7) line 12 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       032   26    1A    SUB (substitute)            132   90    5A    Z[m
+[1;44;33m Manual page ascii(7) line 13 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       033   27    1B    ESC (escape)                133   91    5B    [[m
+[1;44;33m Manual page ascii(7) line 14 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       034   28    1C    FS  (file separator)        134   92    5C    \  '\\'[m
+[1;44;33m Manual page ascii(7) line 15 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       035   29    1D    GS  (group separator)       135   93    5D    ][m
+[1;44;33m Manual page ascii(7) line 16 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       036   30    1E    RS  (record separator)      136   94    5E    ^[m
+[1;44;33m Manual page ascii(7) line 17 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       037   31    1F    US  (unit separator)        137   95    5F    _[m
+[1;44;33m Manual page ascii(7) line 18 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       040   32    20    SPACE                       140   96    60    `[m
+[1;44;33m Manual page ascii(7) line 19 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       041   33    21    !                           141   97    61    a[m
+[1;44;33m Manual page ascii(7) line 20 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       042   34    22    "                           142   98    62    b[m
+[1;44;33m Manual page ascii(7) line 21 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       043   35    23    #                           143   99    63    c[m
+[1;44;33m Manual page ascii(7) line 22 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       044   36    24    $                           144   100   64    d[m
+[1;44;33m Manual page ascii(7) line 23 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       045   37    25    %                           145   101   65    e[m
+[1;44;33m Manual page ascii(7) line 24 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       046   38    26    &                           146   102   66    f[m
+[1;44;33m Manual page ascii(7) line 25 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       047   39    27    '                           147   103   67    g[m
+[1;44;33m Manual page ascii(7) line 26 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       050   40    28    (                           150   104   68    h[m
+[1;44;33m Manual page ascii(7) line 27 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       051   41    29    )                           151   105   69    i[m
+[1;44;33m Manual page ascii(7) line 28 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       052   42    2A    *                           152   106   6A    j[m
+[1;44;33m Manual page ascii(7) line 29 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       053   43    2B    +                           153   107   6B    k[m
+[1;44;33m Manual page ascii(7) line 30 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       054   44    2C    ,                           154   108   6C    l[m
+[1;44;33m Manual page ascii(7) line 31 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       055   45    2D    -                           155   109   6D    m[m
+[1;44;33m Manual page ascii(7) line 32 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       056   46    2E    .                           156   110   6E    n[m
+[1;44;33m Manual page ascii(7) line 33 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K[m
+[1;44;33m Manual page ascii(7) line 34 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       057   47    2F    /                           157   111   6F    o[m
+[1;44;33m Manual page ascii(7) line 35 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       060   48    30    0                           160   112   70    p[m
+[1;44;33m Manual page ascii(7) line 36 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       061   49    31    1                           161   113   71    q[m
+[1;44;33m Manual page ascii(7) line 37 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       062   50    32    2                           162   114   72    r[m
+[1;44;33m Manual page ascii(7) line 38 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       063   51    33    3                           163   115   73    s[m
+[1;44;33m Manual page ascii(7) line 39 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       064   52    34    4                           164   116   74    t[m
+[1;44;33m Manual page ascii(7) line 40 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       065   53    35    5                           165   117   75    u[m
+[1;44;33m Manual page ascii(7) line 41 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       066   54    36    6                           166   118   76    v[m
+[1;44;33m Manual page ascii(7) line 42 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       067   55    37    7                           167   119   77    w[m
+[1;44;33m Manual page ascii(7) line 43 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       070   56    38    8                           170   120   78    x[m
+[1;44;33m Manual page ascii(7) line 44 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       071   57    39    9                           171   121   79    y[m
+[1;44;33m Manual page ascii(7) line 45 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       072   58    3A    :                           172   122   7A    z[m
+[1;44;33m Manual page ascii(7) line 46 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       073   59    3B    ;                           173   123   7B    {[m
+[1;44;33m Manual page ascii(7) line 47 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       074   60    3C    <                           174   124   7C    |[m
+[1;44;33m Manual page ascii(7) line 48 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       075   61    3D    =                           175   125   7D    }[m
+[1;44;33m Manual page ascii(7) line 49 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       076   62    3E    >                           176   126   7E    ~[m
+[1;44;33m Manual page ascii(7) line 50 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KBB[K       077   63    3F    ?                           177   127   7F    DEL[m
+[1;44;33m Manual page ascii(7) line 51 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       041   33    21    !                           141   97    61    a[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 50 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       040   32    20    SPACE                       140   96    60    `[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 49 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       037   31    1F    US  (unit separator)        137   95    5F    _[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 48 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       036   30    1E    RS  (record separator)      136   94    5E    ^[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 47 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       035   29    1D    GS  (group separator)       135   93    5D    ][m
+[32;1H[K[1;44;33m Manual page ascii(7) line 46 (press h for help or q to quit)[0m[K[K [KESCESC[KOO[KAA[K[HM       034   28    1C    FS  (file separator)        134   92    5C    \  '\\'[m
+[32;1H[K[1;44;33m Manual page ascii(7) line 45 (press h for help or q to quit)[0m[K
